@@ -107,9 +107,17 @@ p {
 .btn-main {
     border-radius: 45px;
     color: white;
-    padding: 20px;
+    padding: 15px;
     width: 40%;
     font-size: 1em;
-    background-color: black;
+    background-color: white;
+    color: black;
     margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn-main:hover {
+    background-color: black;
+    color: white;
+    transition: 0.5s;
 }
