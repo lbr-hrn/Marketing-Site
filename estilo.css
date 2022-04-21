@@ -1,0 +1,115 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0 auto;
+    background-image: linear-gradient(134deg, #fcc6c6, 45%, white);
+}
+
+a {
+    color: black;
+    font-weight: 400;
+}
+
+#logo {
+    margin-left: 50px;
+}
+
+header {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+header li {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav ul li::after {
+    display: block;
+    content: '';
+    width: 0%;
+    background-color: #393339;
+    transition: 0.5s;
+    height: 3px;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+ul a.login {
+    border-radius: 20px;
+    border: 1px solid black;
+    color: black;
+    padding: 10px 30px;
+    width: 100px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+ul a.login:hover {
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    font-size: 1.2em;
+    transition: all 0.4s;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+#login {
+border: 1px solid blue;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    margin: 16px;
+}
+
+.h1Edited {
+    width: 760px;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+}
+
+h1#second {
+    font-size: 60px;
+    color: black;
+    line-height: 30px;
+    margin-top: -40px;
+}
+
+p {
+    width: 90%;
+    font-size: 1em;
+    color: rgb(40, 40, 40);
+}
+
+.nave {
+    width: 710px;
+}
+
+.btn-main {
+    border-radius: 45px;
+    color: white;
+    padding: 20px;
+    width: 40%;
+    font-size: 1em;
+    background-color: black;
+    margin-top: 20px;
+}
